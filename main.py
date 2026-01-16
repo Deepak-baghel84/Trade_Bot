@@ -1,10 +1,10 @@
-from utils.logger import setup_logger
+from utils.logger import CustomLogger
 from bot.base_bot import BasicBot
 from bot.validator import validate_order_input
 from config import API_KEY, API_SECRET
 import argparse
 
-log=setup_logger()
+log=CustomLogger().get_logger(__file__)
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
