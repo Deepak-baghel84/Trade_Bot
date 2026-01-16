@@ -1,5 +1,8 @@
 from binance.client import Client
 from binance.exceptions import BinanceAPIException, BinanceOrderException
+from utils.logger import CustomLogger
+
+log=CustomLogger().get_logger(__file__)
 
 from config import (
     BINANCE_FUTURES_TESTNET_URL,
@@ -16,6 +19,8 @@ class BasicBot:
             self.client.FUTURES_URL = BINANCE_FUTURES_TESTNET_URL
         else:
             self.client.FUTURES_URL = BINANCE_FUTURES_LIVE_URL
+        
+        log.info(f"Initialized BasicBot in {'Testnet' if self.testnet else 'Live'} mode")
 
     def place_order(
         self,

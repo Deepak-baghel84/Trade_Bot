@@ -1,3 +1,5 @@
+from utils.logger import CustomLogger
+log=CustomLogger().get_logger(__file__)
 
 def validate_order_input(
     symbol: str,
@@ -40,6 +42,7 @@ def validate_order_input(
     # 6️⃣ Price should not be provided for MARKET orders
     if order_type == "MARKET" and price is not None:
         raise ValueError("Price should not be provided for MARKET orders")
-
+    
+    log.info("Order input validation passed")
     return True
 
