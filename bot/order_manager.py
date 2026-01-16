@@ -1,7 +1,6 @@
 
 from binance.exceptions import BinanceAPIException, BinanceOrderException
 
-
 class OrderManager:
     def __init__(self, client):
         self.client = client
