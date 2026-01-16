@@ -1,5 +1,4 @@
 
-
 def validate_order_input(
     symbol: str,
     side: str,
