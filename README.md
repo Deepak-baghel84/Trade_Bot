@@ -1,5 +1,6 @@
 🏗️ Project Architecture
-trading_bot/
+
+trading_bot
 │
 ├── main.py                 # CLI entry point
 ├── config.py               # API keys & environment config
@@ -17,7 +18,7 @@ trading_bot/
 ├── requirements.txt
 └── README.md
 
-============================================================================================
+===========================================================================
 
 ⚙️ Features Implemented
 
@@ -39,7 +40,7 @@ Error handling with descriptive messages
 
 Modular, extensible design
 
-==========================================================================================
+===========================================================================
 
 🚀 How to Run
 
@@ -59,7 +60,7 @@ python test_connection.py
 4️⃣ Place a test order
 python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --testnet
 
-======================================================================================
+==============================================================================
 
 ⚠️ Known Issue (Documented)
 
@@ -73,7 +74,7 @@ Input validation
 System architecture
 Order routing logic
 
-===================================================================================
+=============================================================================
 
 🧩 Future Improvements
 
@@ -87,7 +88,7 @@ Retry logic for transient API errors
 
 Unit tests & mocks
 
-----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 📎 Notes
 
