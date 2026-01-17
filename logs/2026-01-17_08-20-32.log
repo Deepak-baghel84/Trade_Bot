@@ -1,0 +1,6 @@
+{"timestamp": "2026-01-17T02:50:32.117096Z", "level": "info", "event": "Received CLI arguments"}
+{"timestamp": "2026-01-17T02:50:32.117096Z", "level": "info", "event": "Order input validation passed"}
+{"timestamp": "2026-01-17T02:50:32.943706Z", "level": "info", "event": "Initialized BasicBot in Testnet mode"}
+{"timestamp": "2026-01-17T02:50:32.944706Z", "level": "info", "event": "Placing MARKET order: BUY 0.001 BTCUSDT at Market Price"}
+{"timestamp": "2026-01-17T02:50:32.944706Z", "level": "error", "event": "Failed to place market order: can only concatenate tuple (not \"str\") to tuple"}
+{"exc_info": true, "timestamp": "2026-01-17T02:50:32.945694Z", "level": "error", "event": "Order placement failed"}

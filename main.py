@@ -55,9 +55,8 @@ def main():
             quantity=args.quantity,
             price=args.price,
         )
-
-        print("✅ Order placed successfully")
-        print(order_response)
+        #log.info("Order placed successfully")
+        #print(order_response)
 
     except Exception as e:
         log.exception("Order placement failed")
@@ -66,7 +65,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    log.info("Initialized trading bot")
+    #log.info("Initialized trading bot")
 
 
 

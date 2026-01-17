@@ -1,0 +1,5 @@
+{"timestamp": "2026-01-17T02:46:59.732395Z", "level": "info", "event": "Received CLI arguments"}
+{"timestamp": "2026-01-17T02:46:59.732395Z", "level": "info", "event": "Order input validation passed"}
+{"timestamp": "2026-01-17T02:47:00.591503Z", "level": "info", "event": "Initialized BasicBot in Testnet mode"}
+{"timestamp": "2026-01-17T02:47:00.591503Z", "level": "info", "event": "Placing MARKET order: BUY 0.001 BTCUSDT at Market Price"}
+{"exc_info": true, "timestamp": "2026-01-17T02:47:00.592848Z", "level": "error", "event": "Order placement failed"}
