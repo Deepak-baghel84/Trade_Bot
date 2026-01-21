@@ -1,4 +1,4 @@
-🏗️ ## Project Architecture
+# 🏗️ Project Architecture
 
 trading_bot
 │
@@ -20,7 +20,7 @@ trading_bot
 
 ===========================================================================
 
-⚙️ # Features Implemented
+## ⚙️ Features Implemented
 
 Binance Futures Testnet integration (USDT-M)
 
@@ -40,7 +40,7 @@ Error handling with descriptive messages
 
 Modular, extensible design
 
-===========================================================================
+========================================================================
 
 # 🚀 How to Run
 
@@ -80,7 +80,7 @@ Order routing logic
 
 =============================================================================
 
-#🧩 Future Improvements
+# 🧩 Future Improvements
 
 Stop-Limit / OCO orders
 
