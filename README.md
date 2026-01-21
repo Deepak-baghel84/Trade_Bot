@@ -1,4 +1,4 @@
-#🏗️ Project Architecture
+🏗️ ##Project Architecture
 
 trading_bot
 │
@@ -20,7 +20,7 @@ trading_bot
 
 ===========================================================================
 
-#⚙️ Features Implemented
+⚙️ #Features Implemented
 
 Binance Futures Testnet integration (USDT-M)
 
