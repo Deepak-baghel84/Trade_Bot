@@ -1,4 +1,4 @@
-🏗️ ##Project Architecture
+🏗️ ## Project Architecture
 
 trading_bot
 │
@@ -20,7 +20,7 @@ trading_bot
 
 ===========================================================================
 
-⚙️ #Features Implemented
+⚙️ # Features Implemented
 
 Binance Futures Testnet integration (USDT-M)
 
@@ -42,14 +42,14 @@ Modular, extensible design
 
 ===========================================================================
 
-#🚀 How to Run
+# 🚀 How to Run
 
 1️⃣ Install dependencies
-'''
+'''bash
 pip install -r requirements.txt
 '''
 2️⃣ Set API keys
-'''
+'''bash
 export BINANCE_API_KEY="your_testnet_key"
 export BINANCE_API_SECRET="your_testnet_secret"
 '''
@@ -57,16 +57,16 @@ export BINANCE_API_SECRET="your_testnet_secret"
 (or configure in config.py for local testing)
 
 3️⃣ Test connection
-'''
+'''bash
 python test_connection.py
 '''
 4️⃣ Place a test order
-'''
+'''bash
 python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --testnet
 '''
 ==============================================================================
 
-#⚠️ Known Issue (Documented)
+# ⚠️ Known Issue (Documented)
 
 While placing a MARKET order, an exception is raised during error handling due to the Binance exception object containing non-string data (tuple/dict).
 
@@ -94,7 +94,7 @@ Unit tests & mocks
 
 -------------------------------------------------------------------------------
 
-#📎 Notes
+# 📎 Notes
 
 This project prioritizes engineering correctness and safety
 
